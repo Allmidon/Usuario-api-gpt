@@ -53,7 +53,7 @@ recognition.onresult = async (event) => {
         msgText.innerHTML = ""; //Borra el contenido del elemento msgText (posiblemente un área de mensaje de estado o advertencia).
 
         try { // Envía el mensaje a la API de OpenAI
-            const response = await fetch('http://3.80.144.159/api-gpt-php/endpoints/chat.php', { //hace una solicitud fetch a la API
+            const response = await fetch('http://44.222.150.33/api-gpt-php/endpoints/chat.php', { //hace una solicitud fetch a la API
                 method: 'POST', //La solicitud es de tipo POST, lo que significa que se enviará información al servidor.
                 headers: {
                     'Content-Type': 'application/json', //Se especifica que el contenido es de tipo JSON.
